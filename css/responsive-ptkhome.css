@@ -1,0 +1,204 @@
+@media (max-width: 568px){
+	.find-img1,.find-img2,.find-img3{
+		height: 48vw;
+	}
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1000px) {
+	.logo{
+		position:fixed;
+		top:0;
+		margin-top:16px;
+
+	}
+	nav ul{
+		position: relative;
+		height: 100vh;
+		background:#000;
+		left:-100%;
+		width: 100%;
+	}
+	
+	nav{
+		height: 68px;
+	}
+	.showing{
+       left:0;
+		width: 100%;
+		transition: 1s;
+		
+
+	}
+	nav ul li{
+		display:block;
+		box-sizing: border-box;
+		width:100%;
+		padding:20px 0;
+		text-align:center;
+		border-bottom: solid 1px rgba(255,255,255,0.2);
+
+	}
+	nav ul li a:hover{
+		text-decoration: none;
+		color:#fff;
+	
+	}
+	nav ul li:hover{
+		background-color: #00a98f;
+	}
+	.menu-icon{
+		
+		display: block;
+	    float: right;
+
+	}
+ 
+
+
+ 	
+}
+
+@media only screen and (min-width: 320px) {
+ 
+  
+ 	.wrap{
+		margin-top: 8em;
+		left:1em;
+	}
+	h5.head5{
+		font-size: 0.6em;
+	}
+	h1.head1,h2.head2{
+		font-size:1.5em;
+	}
+	/* responsive for 'about' page */
+	h3.heading{
+		letter-spacing: 1px;
+
+		
+
+	}
+	.about-grid1 h3{
+		font-size: 18px;
+		letter-spacing: 0px;
+	}
+     
+   
+    
+}
+
+@media only screen and (min-width: 375px) {
+	
+/* responsive for 'about' page */
+	h3.heading{
+		letter-spacing: 1px;
+		
+
+	}
+	.about-grid1 h3{
+		font-size: 18px;
+		letter-spacing: .7px;
+	}
+     
+    .about-grid1 p{
+    	font-size: 15px;
+    	letter-spacing: .2px;
+    }
+    .about-grid a{
+    	font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+   
+/* responsive for texts in first page*/
+h1.head1,h2.head2{
+	font-size: 1.4em;
+}
+/* responsive for 'about' page */
+	h3.heading{
+		font-size: 35px;
+		line-height: 3rem;
+
+	}
+	.about-grid1 h3{
+		font-size: 20px;
+	}
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	/* responsive for texts in page 1 */
+	.wrap{
+		margin-top: 8em;
+		left:1.3em;
+	}
+	h5.head5{
+		font-size: 0.6em;
+	}
+	h1.head1,h2.head2{
+		font-size:2.5em;
+	}
+	/* responsive for 'about' page */
+	h3.heading{
+		font-size: 37px;
+
+	}
+	.about-grid1 h3{
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	.about-grid1 p{
+		font-size: 15px;
+		letter-spacing: .2px;
+	}
+	
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.wrap{
+		margin-top: 10em;
+		left:3.5em;
+	}
+	h5.head5{
+		font-size: 0.6em;
+	}
+	h1.head1,h2.head2{
+		font-size:2.2em;
+	}
+	/* responsive for 'about' page */
+	h3.heading{
+		font-size: 40px;
+		letter-spacing: 3px;
+
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+

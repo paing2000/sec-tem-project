@@ -1,0 +1,118 @@
+ .title div h2{
+ 	font-weight: 500;
+ 	letter-spacing: .1px;
+ 	text-transform: uppercase;
+ 	text-shadow: 0 2px 2px rgba(41, 36, 36, 0.37);
+ 	width: 500px;
+
+ }
+ .summary{
+ 	background: #fff;
+ 	color: #000;
+ 	height: auto;
+ }
+.table th{
+	font-weight: bold;
+	font-size: 18px;
+}
+.summary{
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+}
+.summary h3{
+	text-transform: uppercase;
+	border-bottom: 2px solid ;
+	height: 60px;
+	letter-spacing: .3px;
+	font-weight: 500;
+
+	text-shadow: 0 1px 2px rgba(41, 36, 36, 0.37);
+}
+.summary div span{
+	float: right;
+}
+.summary-1{
+	margin-top: 14px;
+	padding: 10px 10px;
+	border-bottom: 2px solid;
+	margin-right: 1.5px;
+	margin-left: 1.5px;
+
+}
+.summary-1 div{
+	height: 35px !important;
+}
+.summary-1 div p{
+	font-weight: 400px;
+	font-size: 17px;
+}
+.summary-1 div span{
+	
+	font-size: 17px;
+}
+.summary-2 div h4{
+	text-transform: uppercase;
+	letter-spacing: .2px;
+	text-shadow: 0 1px 2px rgba(41, 36, 36, 0.37);
+	font-weight: 480;
+}
+
+.summary-2{
+	margin-top: 20px;
+	margin-right: 1.5px;
+	border-bottom: 2px solid;
+	margin-left: 1.5px;
+	height: 45px;
+}
+.summary-3{
+	margin-top: 20px;
+}
+.summary-3 button{
+	text-transform: uppercase;
+	letter-spacing: .1px;
+	 text-shadow:0 1px 2px rgba(41, 36, 36, 0.37);
+}
+
+
+/* box shadow */
+
+.effect6
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect6:after
+{
+    right:10px;
+    left:auto;s
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
