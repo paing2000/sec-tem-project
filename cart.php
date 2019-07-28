@@ -101,8 +101,7 @@
 											<a href="" role="button">Remove</a>
 										</td>
 									</tr>
-								</tbody>
-								<tbody>
+								
 									<tr>
 										<td><img src="img/shop2.jpg" height="70"></td>
 										<td style="vertical-align: middle;"><h5>T8 Barber Shop</h5></td>
@@ -114,8 +113,7 @@
 											<a href="" role="button">Remove</a>
 										</td>
 									</tr>
-								</tbody>
-								<tbody>
+								
 									<tr>
 										<td><img src="img/shop3.jpg" height="70"></td>
 										<td style="vertical-align: middle;"><h5>Ko Ko Beauty Salon</h5></td>
@@ -127,8 +125,7 @@
 											<a href="" role="button">Remove</a>
 										</td>
 									</tr>
-								</tbody>
-								<tbody>
+								
 									<tr>
 										<td><img src="img/shop4.png" height="70"></td>
 										<td style="vertical-align: middle;"><h5>Burman Barber Shop</h5></td>
@@ -150,21 +147,21 @@
 				<div class="container summary effect6">
 					<h3>Summary</h3>
 					<div class="row summary-1">
-						<div class="col-sm-6"><p>Beard Trimming</p></div>
-						<div class="col-sm-6"><span>$23</span></div>
+						<div class="col-sm-6 col-xs-6"><p>Beard Trimming</p></div>
+						<div class="col-sm-6 col-xs-6"><span>$23</span></div>
 
-						<div class="col-sm-6"><p>Hair Cut</p></div>
-						<div class="col-sm-6"><span>$10</span></div>
+						<div class="col-sm-6 col-xs-6"><p>Hair Cut</p></div>
+						<div class="col-sm-6 col-xs-6"><span>$10</span></div>
 
-						<div class="col-sm-6"><p>Hair Wash</p></div>
-						<div class="col-sm-6"><span>$15</span></div>
+						<div class="col-sm-6 col-xs-6"><p>Hair Wash</p></div>
+						<div class="col-sm-6 col-xs-6"><span>$15</span></div>
 
-						<div class="col-sm-6"><p>Nail Decoration</p></div>
-						<div class="col-sm-6"><span>$19</span></div>
+						<div class="col-sm-6 col-xs-6"><p>Nail Decoration</p></div>
+						<div class="col-sm-6 col-xs-6"><span>$19</span></div>
 					</div>
 					<div class="row summary-2">
-							<div class="col-sm-6"><h4>Total</h4></div>
-							<div class="col-sm-6" style="right: 10px;"><span style="font-size: 20px;font-weight: 500;">$67</span></div>
+							<div class="col-sm-6 col-xs-6"><h4>Total</h4></div>
+							<div class="col-sm-6 " style="right: 10px;"><span style="font-size: 20px;font-weight: 500;">$67</span></div>
 					</div>
 					<div class="summary-3"> <button type="button" class="btn btn-dark btn-lg btn-block">CHECKOUT</button></div>
 					
